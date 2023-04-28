@@ -1,0 +1,19 @@
+.pl20{
+    padding-left: 20px;
+}
+.bg-image1{
+    background-image: url("../img/banner1.jpg");
+    background-repeat: no-repeat;
+    width: 100%; height: auto;
+    background-color: black;
+}
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato-Black.ttf);
+}
+@font-face {
+    font-family: "Lato-Regular";
+    src: url(../fonts/Lato-Regular.ttf);
+}
+body{font-family: "Lato";}
+.fontLR{font-family: "Lato-Regular";}

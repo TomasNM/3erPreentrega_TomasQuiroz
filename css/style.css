@@ -70,5 +70,8 @@ body {
     height: auto;
   }
 }
+.cardsHeight {
+  height: 80%;
+}
 
 /*# sourceMappingURL=style.css.map */

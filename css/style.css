@@ -24,10 +24,16 @@
 }
 
 .instagram, .facebook {
-  width: 10%;
+  width: 5%;
   height: auto;
 }
 
+@media (max-width: 768px) {
+  .instagram, .facebook {
+    width: 10%;
+    height: auto;
+  }
+}
 .pl20 {
   padding-left: 20px;
 }
@@ -70,8 +76,10 @@ body {
     height: auto;
   }
 }
-.cardsHeight {
-  height: 80%;
+@media (min-width: 1024px) {
+  .cardsHeight {
+    height: 80%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,2 +1,5 @@
 .logoFooter{width: 50%; height: auto; display: block;margin-left: auto;margin-right: auto;margin-top: 50px;margin-bottom: 25px;}
-.instagram, .facebook{width: 10%; height: auto;}
+.instagram, .facebook{width: 5%; height: auto;}
+@media (max-width:768px){
+    .instagram, .facebook{width: 10%; height: auto;}
+}

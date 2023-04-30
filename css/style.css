@@ -2,6 +2,9 @@
   .logoHeader {
     width: 70%;
     height: auto;
+    display: block;
+    margin-left: 25px;
+    margin-right: auto;
   }
 }
 @media (min-width: 1024px) {
@@ -13,10 +16,15 @@
 .logoFooter {
   width: 50%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .instagram, .facebook {
-  width: 5%;
+  width: 10%;
   height: auto;
 }
 
@@ -45,6 +53,22 @@ body {
 
 .fontLR {
   font-family: "Lato-Regular";
+}
+
+.logo {
+  width: 15%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 30%;
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

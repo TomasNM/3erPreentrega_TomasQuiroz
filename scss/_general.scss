@@ -16,3 +16,7 @@
 }
 body{font-family: "Lato";}
 .fontLR{font-family: "Lato-Regular";}
+.logo{width: 15%; height: auto;display: block;margin-left: auto;margin-right: auto;padding: 10px;}
+@media(max-width:768px){
+    .logo{width: 30%;height: auto;}
+}

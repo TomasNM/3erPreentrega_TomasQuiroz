@@ -13,6 +13,14 @@
     height: auto;
   }
 }
+.hoverH {
+  transition: all 1s;
+}
+.hoverH:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
 .logoFooter {
   width: 50%;
   height: auto;
@@ -80,6 +88,10 @@ body {
   .cardsHeight {
     height: 80%;
   }
+}
+.separator {
+  background-color: white;
+  padding: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

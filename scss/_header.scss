@@ -4,3 +4,10 @@
 @media (min-width:1024px){
     .logoHeader{width: 20%;height: auto;}
 }
+.hoverH{
+    transition: all 1s;
+    &:hover{
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+}

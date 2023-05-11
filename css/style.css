@@ -94,4 +94,27 @@ body {
   padding: 30px;
 }
 
+.nosotros {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: 50%;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .nosotrosM {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .pr-5 {
+    padding-right: 300px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
